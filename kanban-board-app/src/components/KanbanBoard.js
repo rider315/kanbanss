@@ -149,7 +149,7 @@ if (grouping === 'status') {
       return (
         <h2 className="group-heading">
           <img src={statusIcons[group]} alt={`${group} icon`} className="group-icon" />
-          {group} <span className="ticket-count">{count}</span> {/* Ticket count after heading */}
+          {group} <span className="ticket-count">{count}</span> 
         </h2>
       );
     } else if (grouping === 'priority') {
@@ -157,7 +157,7 @@ if (grouping === 'status') {
       return (
         <h2 className="group-heading">
           <img src={priorityIcons[priorityIndex]} alt={`${group} icon`} className="group-icon" />
-          {group} <span className="ticket-count">{count}</span> {/* Ticket count after heading */}
+          {group} <span className="ticket-count">{count}</span> 
         </h2>
       );
     } else {
@@ -187,7 +187,7 @@ if (grouping === 'status') {
         <div className="kanban-columns">
           {Object.keys(groupedTickets).map(group => (
             <div key={group} className="kanban-column">
-              {renderGroupHeading(group, groupedTickets[group].length)} {/* Render the heading with icons and count */}
+              {renderGroupHeading(group, groupedTickets[group].length)} 
               {groupedTickets[group].length > 0 ? (
                 groupedTickets[group].map(ticket => (
                   <TicketCard key={ticket.id} ticket={ticket} />

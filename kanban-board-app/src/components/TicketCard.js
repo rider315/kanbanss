@@ -25,10 +25,10 @@ const TicketCard = ({ ticket }) => {
   return (
     <div className="ticket-card">
       <div className="ticket-header">
-        {/* Ticket ID */}
+        
         <div className="ticket-id">{id}</div>
 
-        {/* User Avatar */}
+        
         <div className="user-avatar">
           <img
             src={defaultAvatar}
@@ -38,7 +38,6 @@ const TicketCard = ({ ticket }) => {
         </div>
       </div>
 
-      {/* Ticket Title and Status Icon in the same line */}
       <div className="ticket-title-row">
         <div className="status-icon">
           <img src={statusIcons[status]} alt={`${status} icon`} className="status-icon-img" />
@@ -46,7 +45,7 @@ const TicketCard = ({ ticket }) => {
         <div className="ticket-title">{title}</div>
       </div>
 
-      {/* Feature Request Tag with Icon */}
+      
       <div className="ticket-tag">
         <img src={tagIcon} alt="Tag icon" className="tag-icon" />
         <span>{tag}</span>

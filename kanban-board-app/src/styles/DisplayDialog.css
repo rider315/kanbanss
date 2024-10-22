@@ -1,13 +1,13 @@
-/* General container for the display dialog */
+
 .display-dialog {
   position: absolute;
   top: 10px;
   left: 10px;
   z-index: 1000;
-  margin-bottom: 20px; /* Space between display button and Kanban board */
+  margin-bottom: 20px; 
 }
 
-/* Display button styles */
+
 .display-button {
   padding: 10px 15px;
   background-color: #f0f0f0;
@@ -18,14 +18,14 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   position: relative;
-  z-index: 1; /* Ensure button appears above the navbar content */
+  z-index: 1; 
 }
 
 .display-button:hover {
-  background-color: #e0e0e0; /* Slightly darker on hover */
+  background-color: #e0e0e0; 
 }
 
-/* Dropdown button styles */
+
 .dropdown-btn {
   display: inline-flex;
   align-items: center;
@@ -44,17 +44,17 @@
   background-color: #f1f1f1;
 }
 
-/* Arrow icon for the dropdown */
+
 .arrow-icon {
   margin-left: 8px;
   height: 16px;
   width: 16px;
 }
 
-/* Dropdown menu styles */
+
 .dropdown-menu {
   position: absolute;
-  top: 100%; /* Positions the dropdown below the button */
+  top: 100%; 
   left: 0;
   width: 200px;
   background-color: #fff;
@@ -65,7 +65,7 @@
   padding: 8px 0;
 }
 
-/* Dropdown item styles */
+
 .dropdown-item {
   padding: 8px 16px;
   margin-bottom: 10px;
@@ -76,20 +76,20 @@
   font-size: 14px;
   margin-bottom: 4px;
   font-weight: bold;
-  vertical-align: middle; /* Align the text with the select */
+  vertical-align: middle; 
 }
 
 .dropdown-select {
   display: inline-block;
-  width: calc(100% - 100px); /* Adjusting width to fit inline with label */
+  width: calc(100% - 100px); 
   padding: 6px 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
-  margin-left: 10px; /* Adds space between the label and select box */
+  margin-left: 10px; 
 }
 
-/* Navbar container to hold the navbar */
+
 .navbar-container {
   position: relative;
   width: 100%;
@@ -97,9 +97,9 @@
   padding: 0;
 }
 
-/* Navbar styles */
+
 .navbar {
-   /* Light grey background */
+   
   height: 60px;
   width: 100%;
   display: flex;
@@ -110,10 +110,10 @@
   top: 0;
   left: 0;
   z-index: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Dropdown menu for the dialog */
+
 .dropdown-menu {
   position: absolute;
   background-color: #fff;
@@ -121,16 +121,16 @@
   padding: 10px;
   border-radius: 4px;
   margin-top: 5px;
-  z-index: 2; /* Ensure dropdown appears above everything */
+  z-index: 2; 
 }
 
-/* Icon styles */
+
 .arrow-icon {
   margin-left: 8px;
   width: 16px;
   height: 16px;
 }
-/* Navbar container to hold the navbar */
+
 .navbar-container {
   position: relative;
   width: 100%;
@@ -138,23 +138,23 @@
   padding: 0;
 }
 
-/* Navbar styles */
+
 .navbar {
-   /* Light grey background */
-  height: 60px; /* Set a height for the navbar */
+   
+  height: 60px; 
   width: 100%;
   display: flex;
-  justify-content: flex-start; /* Align items to the left */
-  align-items: center; /* Center items vertically */
-  padding: 0 20px; /* Add some padding to the sides of the navbar */
+  justify-content: flex-start; 
+  align-items: center; 
+  padding: 0 20px; 
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 0; /* Lower z-index to ensure content appears above the navbar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+  z-index: 0; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Display button styles */
+
 .display-button {
   background-color: #f0f0f0;
   color: #333;
@@ -164,16 +164,16 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  z-index: 1; /* Ensure button appears above the navbar content */
-  margin-left: 0; /* Align the button to the left of the screen */
+  z-index: 1; 
+  margin-left: 0; 
   margin-bottom: 20px;
 }
 
 .display-button:hover {
-  background-color: #e0e0e0; /* Slightly darker on hover */
+  background-color: #e0e0e0; 
 }
 
-/* Dropdown menu styles */
+
 .dropdown-menu {
   position: absolute;
   background-color: #fff;
@@ -181,15 +181,15 @@
   padding: 10px;
   border-radius: 4px;
   margin-top: 5px;
-  z-index: 2; /* Ensure dropdown appears above everything */
+  z-index: 2; 
 }
 
-/* Dropdown item styles */
+
 .dropdown-item {
   margin-bottom: 10px;
 }
 
-/* Dropdown select box styles */
+
 .dropdown-select {
   width: 100%;
   padding: 8px;
@@ -197,7 +197,7 @@
   border-radius: 4px;
 }
 
-/* Icon styles */
+
 .arrow-icon {
   margin-left: 8px;
   width: 16px;

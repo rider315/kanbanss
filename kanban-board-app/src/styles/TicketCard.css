@@ -70,18 +70,18 @@
 .status-icon img {
   width: 16px; 
   height: 16px; 
-  margin-right: 5px; /* Adds some space between the icon and the text */
+  margin-right: 5px; 
 }
 
 .ticket-id {
-  font-size: 12px; /* Adjusts the size of the ticket ID */
+  font-size: 12px; 
 }
 
 .ticket-title {
-  font-size: 14px; /* Adjusts the size of the ticket title */
+  font-size: 14px; 
   font-weight: bold;
 }
 
 .ticket-tag {
-  font-size: 12px; /* Adjusts the size of the tag text */
+  font-size: 12px; 
 }

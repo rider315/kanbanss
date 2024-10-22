@@ -20,11 +20,12 @@
   font-size: 1.2em;
   color: #333;
 }
+
 .group-icon {
   width: 20px;
   height: 20px;
   margin-right: 8px;
-  vertical-align: middle; /* Ensures proper alignment with the text */
+  vertical-align: middle;
 }
 
 .kanban-column h2 {
@@ -34,6 +35,7 @@
   color: #333;
   margin-bottom: 10px;
 }
+
 .kanban-board {
   position: relative;
   width: 100%;
@@ -45,131 +47,126 @@
   top: 0;
   left: 0;
   margin: 10px;
-  z-index: 1000; /* Ensure it appears above other elements */
+  z-index: 1000;
 }
 
-/* Optional: Adjust the size and appearance of the dialog */
 .display-dialog .dialog-content {
   padding: 20px;
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-/* Adds space between the Display button and the Kanban board */
+
 .display-dialog {
-  margin-bottom: 20px; /* Adjust the space as needed */
+  margin-bottom: 20px;
 }
 
 .kanban-board {
-  padding-top: 50px; /* Adds extra space at the top of the Kanban board */
+  padding-top: 50px;
 }
+
 .kanban-column {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers content horizontally */
+  align-items: center;
   margin: 20px;
 }
 
 .kanban-column h2 {
   display: flex;
-  align-items: center; /* Vertically centers the icon and text */
-  justify-content: center; /* Horizontally centers the text and icon */
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
   margin-bottom: 10px;
 }
 
 .kanban-column h2 img {
-  margin-right: 8px; /* Adds space between the icon and heading */
+  margin-right: 8px;
 }
 
 .kanban-column-content {
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center; /* Centers the cards horizontally */
+  align-items: center;
 }
 
 .ticket-card {
   margin-bottom: 15px;
-  width: 90%; /* Adjusts the card width */
-  /* Add other ticket card styles here */
+  width: 90%;
 }
+
 .kanban-column {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers content horizontally */
+  align-items: center;
   margin: 20px;
 }
 
 .kanban-column h2 {
   display: flex;
-  align-items: center; /* Vertically centers the icon and text */
-  justify-content: center; /* Horizontally centers the text and icon */
+  align-items: center;
+  justify-content: center;
   font-size: 18px;
-  margin-bottom: 30px; /* Adds space between heading and content */
+  margin-bottom: 30px;
 }
 
 .kanban-column h2 img {
-  margin-right: 8px; /* Adds space between the icon and heading */
+  margin-right: 8px;
 }
 
 .kanban-column-content {
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center; /* Centers the cards horizontally */
+  align-items: center;
 }
 
 .ticket-card {
   margin-bottom: 15px;
-  width: 90%; /* Adjusts the card width */
-  /* Add other ticket card styles here */
+  width: 90%;
 }
+
 .ticket-count {
-  margin-left: 8px; /* Adds space between the heading and the count */
-  font-weight: normal; /* Adjust if needed */
-  color: #333; /* Adjust the color if necessary */
+  margin-left: 8px;
+  font-weight: normal;
+  color: #333;
 }
-/* Group heading container */
+
 .group-heading-container {
   display: flex;
-  justify-content: space-between; /* Align content on the left and right */
+  justify-content: space-between;
   align-items: center;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
-  padding: 0 10px; /* Optional padding for nicer look */
+  padding: 0 10px;
 }
 
-/* Left part of the group heading (icon, text, and count) */
 .group-heading-left {
   display: flex;
   align-items: center;
 }
 
-/* Right part of the group heading (plus/minus icon) */
 .group-heading-right {
   display: flex;
   align-items: center;
 }
 
-/* Group icon size */
 .group-icon {
   width: 20px;
   height: 20px;
   margin-right: 8px;
-  vertical-align: middle; /* Align the icon with the text */
+  vertical-align: middle;
 }
 
-/* Toggle icon (plus/minus) */
 .toggle-icon {
   width: 20px;
   height: 20px;
   cursor: pointer;
 }
 
-/* Ticket count styling */
 .ticket-count {
   margin-left: 8px;
   font-weight: normal;
