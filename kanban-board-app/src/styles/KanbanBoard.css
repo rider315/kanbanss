@@ -1,0 +1,132 @@
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.kanban-column {
+  width: 22%;
+  margin: 0 10px;
+}
+
+.loading-message, .error-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+.group-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle; /* Ensures proper alignment with the text */
+}
+
+.kanban-column h2 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.kanban-board {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.display-dialog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+/* Optional: Adjust the size and appearance of the dialog */
+.display-dialog .dialog-content {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* Adds space between the Display button and the Kanban board */
+.display-dialog {
+  margin-bottom: 20px; /* Adjust the space as needed */
+}
+
+.kanban-board {
+  padding-top: 50px; /* Adds extra space at the top of the Kanban board */
+}
+.kanban-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  margin: 20px;
+}
+
+.kanban-column h2 {
+  display: flex;
+  align-items: center; /* Vertically centers the icon and text */
+  justify-content: center; /* Horizontally centers the text and icon */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.kanban-column h2 img {
+  margin-right: 8px; /* Adds space between the icon and heading */
+}
+
+.kanban-column-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; /* Centers the cards horizontally */
+}
+
+.ticket-card {
+  margin-bottom: 15px;
+  width: 90%; /* Adjusts the card width */
+  /* Add other ticket card styles here */
+}
+.kanban-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  margin: 20px;
+}
+
+.kanban-column h2 {
+  display: flex;
+  align-items: center; /* Vertically centers the icon and text */
+  justify-content: center; /* Horizontally centers the text and icon */
+  font-size: 18px;
+  margin-bottom: 30px; /* Adds space between heading and content */
+}
+
+.kanban-column h2 img {
+  margin-right: 8px; /* Adds space between the icon and heading */
+}
+
+.kanban-column-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; /* Centers the cards horizontally */
+}
+
+.ticket-card {
+  margin-bottom: 15px;
+  width: 90%; /* Adjusts the card width */
+  /* Add other ticket card styles here */
+}
+.ticket-count {
+  margin-left: 8px; /* Adds space between the heading and the count */
+  font-weight: normal; /* Adjust if needed */
+  color: #333; /* Adjust the color if necessary */
+}

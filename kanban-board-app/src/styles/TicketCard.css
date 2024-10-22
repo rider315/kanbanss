@@ -1,0 +1,87 @@
+.ticket-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-id {
+  font-size: 12px;
+  color: #666;
+}
+
+.user-avatar {
+  position: relative;
+}
+
+.avatar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Align the title and status icon in one row */
+.ticket-title-row {
+  display: flex;
+  align-items: flex-start; /* Align status icon with the first line of title */
+  margin-top: 8px;
+}
+
+.ticket-title {
+  font-size: 14px; /* Adjusted font size */
+  font-weight: bold;
+  color: #333;
+  margin-left: 8px; /* Space between the icon and title */
+}
+
+.status-icon {
+  display: flex;
+  align-items: flex-start;
+}
+
+.status-icon-img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Tag with an icon aligned inline */
+.ticket-tag {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.ticket-tag .tag-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}
+.status-icon img {
+  width: 16px; /* Adjust to the desired width */
+  height: 16px; /* Adjust to the desired height */
+  margin-right: 5px; /* Adds some space between the icon and the text */
+}
+
+.ticket-id {
+  font-size: 12px; /* Adjusts the size of the ticket ID */
+}
+
+.ticket-title {
+  font-size: 14px; /* Adjusts the size of the ticket title */
+  font-weight: bold;
+}
+
+.ticket-tag {
+  font-size: 12px; /* Adjusts the size of the tag text */
+}

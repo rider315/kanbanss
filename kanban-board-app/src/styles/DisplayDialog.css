@@ -1,0 +1,99 @@
+.display-dialog {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    margin-bottom: 20px; /* Space between display button and Kanban board */
+  }
+  
+  .display-button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1001; /* Ensure it appears above the dialog */
+  }
+  
+  .dropdown-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .dropdown-btn:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .arrow-icon {
+    margin-left: 8px;
+    height: 16px;
+    width: 16px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%; /* Positions the dropdown below the button */
+    left: 0;
+    width: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 8px 0;
+  }
+  
+  .dropdown-item {
+    padding: 8px 16px;
+  }
+  
+  .dropdown-item span {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    vertical-align: middle; /* Align the text with the select */
+  }
+  
+  .dropdown-select {
+    display: inline-block;
+    width: calc(100% - 100px); /* Adjusting width to fit inline with label */
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-left: 10px; /* Adds space between the label and select box */
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .dialog-content {
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Space between heading and select box */
+  .display-dialog label {
+    margin-right: 10px; /* Adds space between label and select */
+  }
+  
+  .display-dialog select {
+    margin-left: 10px; /* Space between the select and label */
+  }
+  
