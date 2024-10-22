@@ -29,18 +29,18 @@
   object-fit: cover;
 }
 
-/* Align the title and status icon in one row */
+
 .ticket-title-row {
   display: flex;
-  align-items: flex-start; /* Align status icon with the first line of title */
+  align-items: flex-start; 
   margin-top: 8px;
 }
 
 .ticket-title {
-  font-size: 14px; /* Adjusted font size */
+  font-size: 14px; 
   font-weight: bold;
   color: #333;
-  margin-left: 8px; /* Space between the icon and title */
+  margin-left: 8px; 
 }
 
 .status-icon {
@@ -53,7 +53,7 @@
   height: 20px;
 }
 
-/* Tag with an icon aligned inline */
+
 .ticket-tag {
   font-size: 12px;
   color: #666;
@@ -68,8 +68,8 @@
   margin-right: 5px;
 }
 .status-icon img {
-  width: 16px; /* Adjust to the desired width */
-  height: 16px; /* Adjust to the desired height */
+  width: 16px; 
+  height: 16px; 
   margin-right: 5px; /* Adds some space between the icon and the text */
 }
 

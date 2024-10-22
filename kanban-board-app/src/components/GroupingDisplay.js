@@ -1,29 +1,4 @@
-// import React from 'react';
-// import '../styles/GroupingDisplay.css';
 
-// const GroupingDisplay = ({ grouping, onGroupingChange, ordering, onOrderingChange }) => {
-//   return (
-//     <div className="grouping-display">
-//       <div>
-//         <label>Grouping: </label>
-//         <select value={grouping} onChange={(e) => onGroupingChange(e.target.value)}>
-//           <option value="status">Status</option>
-//           <option value="user">User</option>
-//           <option value="priority">Priority</option>
-//         </select>
-//       </div>
-//       <div>
-//         <label>Ordering: </label>
-//         <select value={ordering} onChange={(e) => onOrderingChange(e.target.value)}>
-//           <option value="priority">Priority</option>
-//           <option value="title">Title</option>
-//         </select>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default GroupingDisplay;
 
 
 import React, { useState } from 'react';

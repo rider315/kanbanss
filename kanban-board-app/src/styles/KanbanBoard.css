@@ -130,3 +130,48 @@
   font-weight: normal; /* Adjust if needed */
   color: #333; /* Adjust the color if necessary */
 }
+/* Group heading container */
+.group-heading-container {
+  display: flex;
+  justify-content: space-between; /* Align content on the left and right */
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 0 10px; /* Optional padding for nicer look */
+}
+
+/* Left part of the group heading (icon, text, and count) */
+.group-heading-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Right part of the group heading (plus/minus icon) */
+.group-heading-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Group icon size */
+.group-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  vertical-align: middle; /* Align the icon with the text */
+}
+
+/* Toggle icon (plus/minus) */
+.toggle-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+/* Ticket count styling */
+.ticket-count {
+  margin-left: 8px;
+  font-weight: normal;
+  color: #666;
+}
